@@ -6,7 +6,7 @@ module.exports =
   entry: './develop/app.jsx',
 
   output: {
-    path: '/dist',
+    path: path.join(__dirname, 'dist'),
     filename: 'react-scrollbar.js',
   },
 
